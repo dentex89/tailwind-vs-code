@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-pacifico: Pacifico;
+  --color-mint-500: oklch(0.72 0.11 178);
+}
+
+@utility boton-primary-01 {
+  @apply bg-red-600 text-white py-2 px-6 rounded-full shadow-lg hover:bg-red-700 transition duration-300 cursor-pointer;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-vs-code",
+  "homepage": "https://dentex89.github.io/tailwind-vs-code/",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.12",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^4.1.12"
+  }
+}
